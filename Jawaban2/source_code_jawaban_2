@@ -1,0 +1,4 @@
+current_name = str(input("masukkan nama : "))
+current_nim = str(input("masukkan nim : "))
+print ("==============\nPROGRAM QUIZ\n==============\nNama : " + current_name + "\nNIM : " + current_nim)
+

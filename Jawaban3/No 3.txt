@@ -1,0 +1,14 @@
+3. Pada contoh di kalimat tersebut yang di looping yaitu “bahasa”. 
+
+Jika continue iterasi/looping sudah bertemu dengan huruf h maka akan di lanjutkan ke huruf berikutnya, namun pada case ini huruf “h” itu sendiri tidak akan muncul pada output karena jika continue sudah benar/true maka tidak akan mengeksekusi/print nilai “h” itu sendiri, yang mana akan lanjut ke huruf/val berikutnya. 
+Jadi kira2 output satu persatu akan seperti ini jika continue:
+b
+a
+a
+s
+a
+
+Jika break iterasi/looping sudah bertemu dengan huruf h maka akan berhenti looping nya, huruf “h” dan seterusnya yang ada pada val tidak akan dilanjutkan lagi.
+Jadi kira2 output satu persatu akan seperti ini jika break:
+b
+a

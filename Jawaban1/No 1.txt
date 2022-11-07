@@ -1,0 +1,3 @@
+1. Paradigma pemrograman adalah suatu teknik dalam pendekatan untuk menyelesaikan masalah – masalah tertentu dengan mempertimbangkan konsep, bahasa pemrograman serta cara kerjanya yang tepat dan ideal untuk jangka waktu berkepanjangan.
+
+Pemrograman berorientasi objek adalah paradigma pemrograman yang berorientasikan kepada objek yang merupakan metode dalam pembuatan program, dengan maksud dan tujuan untuk menyelesaikan kompleksnya masalah pada program yang terus meningkat sejalan dengan kebutuhan kedepannya. Objek yang dimaksud dapat berupa sesuatu yang memiliki atribut, karakter ataupun kondisi tertentu

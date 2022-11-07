@@ -1,0 +1,37 @@
+current_name = str(input("masukkan nama : "))
+current_nim = str(input("masukkan nim : "))
+print ("Nama : " + current_name + "\nNIM : " + current_nim)
+
+pilihan_1 = "capucino"
+pilihan_2 = "teh"
+pilihan_3 = "exit"
+print ("Pilihan\n1. ",pilihan_1,"\n2. ",pilihan_2,"\n3. ",pilihan_3)
+
+current_choice = str(input("masukkan pilihan (important: hanya angka) : "))
+if (current_choice == "1"):
+    print ("memilih",pilihan_1)
+    harga_bersih_produk = 3000
+    
+
+elif (current_choice == "2"):
+    print ("memilih",pilihan_2)
+    harga_bersih_produk = 7000
+
+elif (current_choice == "3"):
+    print ("memilih ",pilihan_3," terimakasih sudah datang. :)")
+    exit()
+
+else:
+    print ("Terjadi kesalahan, mohon coba kembali. Pastikan input sudah benar. :)")
+    exit()
+
+
+#total_pembelian = int(input('Masukkan total pembelian : '))
+
+print ("harga bersih produk : ",harga_bersih_produk)
+pajak = float(0.10)
+akhir = float(harga_bersih_produk * pajak)
+
+print("harga total keseluruhan, *sudah termasuk ppn 10% : ",akhir + harga_bersih_produk)
+
+#print("%.2f" % akhir)

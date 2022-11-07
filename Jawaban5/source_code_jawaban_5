@@ -1,0 +1,9 @@
+current_jam = int(input("masukkan jam : "))
+current_menit = int(input("masukkan menit : "))
+current_detik = int(input("masukkan detik : "))
+
+if (current_jam <= 24 and current_menit <=60 and current_detik <= 60):
+	print (current_jam,":",current_jam,":",current_detik)
+
+else:
+	print ("Terjadi kesalahan, mohon coba kembali. Pastikan input sudah benar. :)\njam maks : 24\nmenit maks : 60\ndetik maks : 60")
